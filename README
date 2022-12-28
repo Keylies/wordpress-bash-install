@@ -1,0 +1,31 @@
+
+# WordPress Bash install
+
+A bash script allowing to create a base WordPress and automatically make copies of it.
+
+## Features
+- Choose to create a new base WordPress to make copies of it, or make copies of an existing WordPress
+- Install/update WP CLI
+- Install phpMyAdmin if not already installed
+- Install/update common PHP packages
+- Install base WordPress
+-- Download latest version
+-- Set up wp-config
+-- Create database
+-- Suppress default pages & posts
+-- Set SEO optimized permaling structure
+-- Install a theme (eg. Astra)
+-- Install plugins (eg. WP All Import & WooCommerce)
+- Make n copies a of base WordPress
+-- Export database to copy
+-- Copy files
+-- Make symbolics links for themes & plugins directories
+-- Update wp-config
+-- Import database
+- Apache configuration
+
+## Usage
+
+ 1. Copy sh script on your server
+ 2.  Execute it: `bash wordpress_bash_install.sh`
+ 3. Follow instructions
